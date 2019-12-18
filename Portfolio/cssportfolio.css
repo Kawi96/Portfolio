@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+body {
+    font-family: "Quicksand";
+    background-color: #EDBD06;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.element_en_gras {
+    font-weight: bolder;
+}
+
+/*Menu en haut de page*/
+.menu_haut_de_page {
+    display: flex;
+    align-content: space-between;
+    color : whitesmoke;
+    text-decoration-color: white;
+    font-weight: bolder;
+    background-color: #54270A;
+}
+
+.experiences_detaillees{
+    display: flex;
+    flex-direction: column;
+}
+
+.mes_recommandation {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactez_moi{
+    display: flex;
+    flex-direction: column;
+}
