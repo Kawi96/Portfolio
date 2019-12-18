@@ -39,6 +39,17 @@ h2 {
     background-color: #54270A;
 }
 
+/*Différents éléments de l'index html*/
+.presentation{
+    display: flex;
+    flex-direction: column;
+}
+
+.mon_parcours{
+    display: flex;
+    flex-direction: column;
+}
+
 .experiences_detaillees{
     display: flex;
     flex-direction: column;
