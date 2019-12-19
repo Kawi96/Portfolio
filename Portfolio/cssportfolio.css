@@ -5,11 +5,10 @@
 
 body {
     font-family: "Quicksand";
-    background-color: #EDBD06;
-    padding-left: 10%;
-    padding-right: 10%;
+    background-color: whitesmoke;
 }
 
+/*Elements généraux de formatage*/
 h1 {
     padding-bottom: 20px;
     padding-top: 20px;
@@ -29,38 +28,90 @@ h2 {
     font-weight: bolder;
 }
 
+.element_en_italique{
+    font-style: italic;
+}
+
+.image{
+    width: 6%;
+}
+
+#kawi_block{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display:flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+#les_aventures_de_kawi_index{
+    width=10%;
+    height: auto;
+    padding-right: 15%;
+    padding-left: 8%;
+}
+#les_aventures_de_kawi_projet{
+    
+}
+
 /*Menu en haut de page*/
 .menu_haut_de_page {
     display: flex;
     align-content: space-between;
-    color : whitesmoke;
-    text-decoration-color: white;
     font-weight: bolder;
     background-color: #54270A;
+    padding-left: none;
+    padding-right: none;
+    height: 40px;
 }
 
-/*Différents éléments de l'index html*/
-.presentation{
+.element_du_menu{
+    color : whitesmoke;
+}
+/* Mise en forme de blocks spécifiques répétitifs*/
+
+.happy_unhappy{
+    display:flex;
+}
+
+/*Différents blocs de l'index html par ordre décroissant*/
+
+.sommaire{
     display: flex;
     flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.presentation{
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .mon_parcours{
-    display: flex;
-    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .experiences_detaillees{
     display: flex;
     flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .mes_recommandation {
     display: flex;
     flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .contactez_moi{
     display: flex;
     flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
 }
