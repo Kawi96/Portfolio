@@ -8,21 +8,29 @@
         <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     </head>
     <body>
+        
+        <header class="menu_haut_de_page">
+            <a class="element_du_menu" href="../index.html">Acceuil</a>
+            <a class="element_du_menu" href="tppython.html">TPPyhon</a>
+            <a class="element_du_menu" href="experiences_notables.html">Expériences notables</a>
+            <a class="element_du_menu" href="formulaire_de_contact.html">Contact</a>
+        </header>
+        
         <h1>laissez moi un message :)</h1>
-            <form>
-                <div>
+            <form id="formulaire_de_contact">
+                <div class="element_de_formulaire">
                     <label for="name">Nom :</label>
                     <input type="text" id="name" name="user_name">
                 </div>
-                <div>
+                <div class="element_de_formulaire">
                     <label for="mail">e-mail :</label>
                     <input type="email" id="mail" name="user_mail">
                 </div>
-                <div>
+                <div class="element_de_formulaire">
                     <label for="msg">Message :</label>
-                    <textarea id="msg" name="user_message"></textarea>
+                    <textarea id="zone_de_texte" name="user_message"></textarea>
                 </div>
-                <div>
+                <div class="element_de_formulaire">
                     <button type="submit">Envoyer le message</button>
                 </div>
             </form>

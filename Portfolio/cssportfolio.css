@@ -26,6 +26,7 @@ h2 {
 
 .element_en_gras {
     font-weight: bolder;
+    color: red;
 }
 
 .element_en_italique{
@@ -114,4 +115,27 @@ h2 {
     flex-direction: column;
     padding-left: 10%;
     padding-right: 10%;
+}
+
+/*TPpython*/
+.avertissement{
+    color: red;
+    font-weight: bolder;
+}
+
+/*Formulaire de contact*/
+#formulaire_de_contact{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.element_de_formulaire{
+    padding-bottom: 2%;
+}
+#zone_de_texte{
+    justify-content: flex-start;
+    padding-bottom: 2%;
+    width: 200px;
+    height: 150px;
 }
