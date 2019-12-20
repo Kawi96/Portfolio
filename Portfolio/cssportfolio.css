@@ -20,8 +20,8 @@ h1 {
 }
 
 h2 {
-    padding-bottom: 15px;
-    padding-top: 15px;
+    padding-bottom: 4%;
+    padding-top: 3%;
 }
 
 .element_en_gras {
@@ -35,7 +35,21 @@ h2 {
 
 .image{
     width: 6%;
+    align-items: center;
+    justify-content: center;
+    padding 2% 4% 2% 4%;
 }
+.image_centrale{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+
+.texte_happy_unhappy{
+    justify-content: flex-start;
+    padding-left: 3%;
+    }
 
 #kawi_block{
     padding-top: 5%;
@@ -53,9 +67,6 @@ h2 {
     padding-right: 15%;
     padding-left: 8%;
 }
-#les_aventures_de_kawi_projet{
-    
-}
 
 /*Menu en haut de page*/
 .menu_haut_de_page {
@@ -65,7 +76,9 @@ h2 {
     background-color: #54270A;
     padding-left: none;
     padding-right: none;
-    height: 40px;
+    height: 20%;
+    padding-top: 2%;
+    padding-bottom:2%;
 }
 
 .element_du_menu{
@@ -74,7 +87,8 @@ h2 {
 /* Mise en forme de blocks spécifiques répétitifs*/
 
 .happy_unhappy{
-    display:flex;
+    display: flex;
+    padding-bottom: 3%;
 }
 
 /*Différents blocs de l'index html par ordre décroissant*/
@@ -117,10 +131,40 @@ h2 {
     padding-right: 10%;
 }
 
+#linkedin{
+    height :40px;
+    width: auto;
+}
+
 /*TPpython*/
 .avertissement{
     color: red;
     font-weight: bolder;
+}
+
+.image_tp_python{
+    width: 100%;
+    height: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+#image_note_python{}
+
+
+/*Expériences notable*/
+.corp_de_texte_experiences{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#image_jeux_olympiques{
+    display: flex;
+    justifSy-content: center;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    width: 30%;
+    height: auto;
 }
 
 /*Formulaire de contact*/
