@@ -43,8 +43,18 @@ h2 {
     display: flex;
     justify-content: center;
     padding-bottom: 4%;
-    padding-top: 4%;
+    padding-top: 3%;
 }
+
+#caricature_blequin{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    width: 34%;
+    height: auto;
+}
+
 
 .texte_happy_unhappy{
     justify-content: flex-start;
@@ -52,13 +62,14 @@ h2 {
     }
 
 #kawi_block{
-    padding-top: 5%;
+    padding-top: 1%;
     padding-bottom: 5%;
     padding-left: 10%;
     padding-right: 10%;
     display:flex;
-    justify-content: space-between;
+    justify-content:center;
     align-content: space-between;
+    flex-direction: column;
 }
 
 #les_aventures_de_kawi_index{
@@ -76,7 +87,8 @@ h2 {
     background-color: #54270A;
     padding-left: none;
     padding-right: none;
-    height: 20%;
+    height: 8%;
+    width: 100%;
     padding-top: 2%;
     padding-bottom:2%;
 }
@@ -149,7 +161,13 @@ h2 {
     padding-bottom: 4%;
 }
 
-#image_note_python{}
+#image_note_python{
+    display: flex;
+    width: 30%;
+    height: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
 
 
 /*Expériences notable*/
@@ -160,7 +178,7 @@ h2 {
 
 #image_jeux_olympiques{
     display: flex;
-    justifSy-content: center;
+    justify-content: center;
     padding-bottom: 4%;
     padding-top: 4%;
     width: 30%;
@@ -172,6 +190,8 @@ h2 {
     display: flex;
     flex-direction: column;
     align-content: space-between;
+    width: 90%;
+    height: 35%;
 }
 
 .element_de_formulaire{
@@ -180,6 +200,6 @@ h2 {
 #zone_de_texte{
     justify-content: flex-start;
     padding-bottom: 2%;
-    width: 200px;
-    height: 150px;
+    width: 500px;
+    height: 200px;
 }
