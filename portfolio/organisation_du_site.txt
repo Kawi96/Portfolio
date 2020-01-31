@@ -1,0 +1,3 @@
+Les pages sont dans l'encart principal
+
+Les includes sont dans leur propre dossier
