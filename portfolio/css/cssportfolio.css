@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+body {
+    font-family: "Quicksand";
+    background-color: whitesmoke;
+}
+
+/*Elements généraux de formatage*/
+h1 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    padding-bottom: 4%;
+    padding-top: 3%;
+}
+
+footer {
+    border-top: 1px solid black;
+    display: flex;
+    font-style: italic;
+}
+
+
+.element_en_gras {
+    font-weight: bolder;
+    color: red;
+}
+
+.element_en_italique{
+    font-style: italic;
+}
+
+.image{
+    width: 6%;
+    align-items: center;
+    justify-content: center;
+    padding 2% 4% 2% 4%;
+}
+.image_centrale{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4%;
+    padding-top: 3%;
+}
+
+#caricature_blequin{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    width: 34%;
+    height: auto;
+}
+
+
+.texte_happy_unhappy{
+    justify-content: flex-start;
+    padding-left: 3%;
+    }
+
+#kawi_block{
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display:flex;
+    justify-content:center;
+    align-content: space-between;
+    flex-direction: column;
+}
+
+#les_aventures_de_kawi_index{
+    width=10%;
+    height: auto;
+    padding-right: 15%;
+    padding-left: 8%;
+}
+
+/*Menu en haut de page*/
+.menu_haut_de_page {
+    display: flex;
+    align-content: space-between;
+    font-weight: bolder;
+    background-color: #54270A;
+    padding-left: none;
+    padding-right: none;
+    height: 8%;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom:2%;
+}
+
+.element_du_menu{
+    color : whitesmoke;
+}
+/* Mise en forme de blocks spécifiques répétitifs*/
+
+.happy_unhappy{
+    display: flex;
+    padding-bottom: 3%;
+}
+
+/*Différents blocs de l'index html par ordre décroissant*/
+
+.sommaire{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.presentation{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.mon_parcours{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.experiences_detaillees{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.mes_recommandation {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.contactez_moi{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#linkedin{
+    height :40px;
+    width: auto;
+}
+
+/*TPpython*/
+.avertissement{
+    color: red;
+    font-weight: bolder;
+}
+
+.image_tp_python{
+    width: 100%;
+    height: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+#image_note_python{
+    display: flex;
+    width: 30%;
+    height: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+
+/*Expériences notable*/
+.corp_de_texte_experiences{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#image_jeux_olympiques{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    width: 30%;
+    height: auto;
+}
+
+/*Formulaire de contact*/
+#formulaire_de_contact{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 90%;
+    height: 35%;
+}
+
+.element_de_formulaire{
+    flex-direction: row;
+    padding-bottom: 2%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10%;
+}
+
+

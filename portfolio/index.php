@@ -1,17 +1,9 @@
-<!DOCTYPE html>
-<html lang="fr">
-    
-    <head>
-        <title>Portolio</title>
-        <meta charset="utf-8">
-        <link href="cssportfolio.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
-    </head>
-    <body>
+
+
 
         <! -- Menu réalisé en PHP -->
         <?php include("includes/menu.php"); ?>
-        
+     <body>       
         
         <header class="sommaire">
             <h2>sommaire</h2>
@@ -39,7 +31,7 @@
             </div>
              <div class="happy_unhappy">
                 <img class=image src="images/smiley_triste.webp" name="smiley_triste" alt="smiley_triste">
-                <p class="texte_happy_unhappy">Malheuresement je suis également <span class="element_en_gras">ultra nul en design ! </span>Aussi : J'éprouve des difficultés a éffectuer des taches quand je n'en comprends pas la logique</p>
+                <p class="texte_happy_unhappy">Malheuresement j'éprouve également des difficultés dans certains domaines. J'ai par exemple du mal à éffectuer des taches quand je n'en comprends pas la logique.</p>
             </div> 
             <p>Je peux être capable de produire un travail de qualité et d'innover mais j'aurais toujours du mal à bien présenter les choses au niveau de la forme. Pour illuster cela je peux citer une phrase de Fabrice Emeriau à propos de mon travail concernant le tableau de compta d'AD Ingé (sujet traité ci dessous) : "Guillaume, tu as démontré avec le tableau de compta que tu es capables de faire de faire du très bon travail. Cependant, tu as un sérieux problème avec la mise en forme et les gens risquent de ne pas utiliser tes outils si ils ne sont pas bien présentés".</p>
             <p>L'évaluation que nous avons en python illustre très bien cela : <a href="html/tppython.html">TPpython</a></p>
@@ -140,16 +132,16 @@
             <h1 id="experiences_detaillees">expériences détaillées</h1>
 
                 <h2>Tableau de comptabilité d’AD Ingé</h2>
-                    <a href="html/experiences_notables.php#experience_tableau_de_compta">Pour plus détails cliquez sur ce lien</a>
+                    <a href="experiences_notables.php#experience_tableau_de_compta">Pour plus détails cliquez sur ce lien</a>
 
                 <h2>L’appel d’offre du marché des JO de Paris 2024</h2>
-                    <a href="html/experiences_notables.php#experience_jeux_olympiques">Pour plus détails cliquez sur ce lien</a>
+                    <a href="experiences_notables.php#experience_jeux_olympiques">Pour plus détails cliquez sur ce lien</a>
 
                 <h2>Les enquête sociologiques les besoins des adultes autistes</h2>
-                    <a href="html/experiences_notables.php#experience_enquete_asperansa">Pour plus détails cliquez sur ce lien</a>
+                    <a href="experiences_notables.php#experience_enquete_asperansa">Pour plus détails cliquez sur ce lien</a>
 
                 <h2>Promotion de mon livre</h2>
-                    <a href="html/experiences_notables.php#promotion_de_kawi">Pour plus détails cliquez sur ce lien</a>
+                    <a href="experiences_notables.php#promotion_de_kawi">Pour plus détails cliquez sur ce lien</a>
         </section>
 
         <section class="mes_recommandation">  
@@ -168,8 +160,11 @@
         <section class="contactez_moi"> 
             <h1 id="contactez_moi">contactez moi :)</h1>
                 <h2>Je suis sur <a href="https://www.linkedin.com/in/guillaume-alemany-91693b18a/"><img id="linkedin" src="images/linkedin.png" name="logo_linkedin" alt="logo_linkedin"></a> ! </h2>
-                <h2>Vous pouvez également me laisser un message ici :<a href="html/formulaire_de_contact.php">contact</a></h2>
+                <h2>Vous pouvez également me laisser un message ici :<a href="formulaire_de_contact.php">contact</a></h2>
         </section> 
+
+            <?php include("includes/footer.html"); ?>
+    
 
     </body>
     

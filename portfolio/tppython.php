@@ -1,17 +1,12 @@
-<!DOCTYPE html>
-<html lang="fr">
-    
-    <head>
-        <title>TPpython</title>
-        <meta charset="utf-8">
-        <link href="../cssportfolio.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
-    </head>
-    <body>
+
+
         
         <! -- Menu réalisé en PHP -->
         <?php include("includes/menu.php"); ?>
-        
+  
+
+      <body>
+            
         <h1>La déduction logique appliquée en Python</h1>
         <section class="corp_de_texte_experiences">
         
@@ -37,7 +32,9 @@
             <img id="image_note_python" src="images/ux_ui.png" name="notes_ux_ui" alt="Relevé de notes d'UX-UI">
              
         </section>
-        
+
+            <?php include("includes/footer.html"); ?>
+
 
     </body>
     
